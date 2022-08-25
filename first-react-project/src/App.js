@@ -8,6 +8,7 @@ function App() {
     <div>
       <Navigation />
       <LoginForm />
+      <p>Created by: Shawn O'Brien</p>
     </div>
   );
 }

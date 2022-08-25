@@ -13,10 +13,58 @@ code {
 }
 
 /* This is the CSS I have created to target different elements in the project. */
-.navbar {
-  background-color: #414040;
+#root {
+  background-color: #0b8548;
 }
 
-a:link {
-  color: #2ac21c;
+.navbar {
+  background-color: #3d0669;
+}
+
+.navbar-brand {
+  color: #1cd12b !important;
+}
+
+.nav-link {
+  color: #d400ff !important;
+}
+
+#loginFormDiv {
+  background-color: #023b07;
+  color: #aa43ee;
+  padding: 2rem;
+  border-top: 1rem groove #5e2d06;
+  border-bottom: 1rem groove #5e2d06;
+  border-left: 1rem groove #5e2d06;
+  border-right: 1rem groove #5e2d06;
+  margin: 2rem;
+  align-content: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+button {
+  background-color: #3d0669 !important;
+  color: #1cd12b !important;
+}
+
+.labelTarget {
+  background-color: #aa43ee !important;
+  color: #023b07 !important;
+  font-weight: bold !important;
+}
+
+.inputTarget {
+  background-color: #1cd12b !important;
+  color: #3d0669 !important;
+}
+
+.inputTarget::placeholder {
+  color: #f4f4f5 !important;
+}
+
+.descriptionTarget {
+  color: #f4f4f5 !important;
 }
